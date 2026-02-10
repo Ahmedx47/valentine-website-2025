@@ -26,15 +26,16 @@ body {
 }
 
 .container {
-    background: rgba(255, 255, 255, 0.9);
-    padding: 2rem;
+    background: rgba(255,255,255,0.9);
+    padding: 3rem;          /* was 2rem */
     border-radius: 20px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
     text-align: center;
-    max-width: 600px;
-    margin: 20px;
+    max-width: 700px;       /* was 600px */
+    margin: 40px;           /* was 20px */
     overflow: visible !important;
 }
+
 
 .floating-elements {
     position: fixed;
@@ -262,11 +263,13 @@ h1, h2 {
 
 h1 {
     color: #ff6b6b;
-    margin-bottom: 2rem;
+    margin-bottom: 2.5rem;
+    font-size: 2.5rem;     /* was default */
 }
 
 h2 {
     color: #ff8787;
+    font-size: 1.6rem;     /* was default */
 }
 
 .super-love {
